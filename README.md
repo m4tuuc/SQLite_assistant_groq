@@ -25,6 +25,11 @@ Instalar Dependencias
 pip install -r requirements.txt
 ```
 
+Navegamos hasta el directorio donde tenemos el repositorio y ejecutamos:
+```python
+streamlit run app.py
+```
+
 ---
 
 <h2>Configurar API Key de Groq necesaria para hacer funcionar nuestro modelo.</h2>
