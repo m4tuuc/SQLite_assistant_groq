@@ -38,7 +38,7 @@ Crea un archivo `.streamlit/secrets.toml` con el siguiente contenido:
 ```toml
 # .streamlit/secrets.toml
 # Configuración de API Keys
-GROQ_API_KEY = "gsk_tu_api_key_aqui_123456"  # Key de Groq (obtener en console.groq.com)
+GROQ_API_KEY = "gsk_tu_api_key_aqui_123456"  # API Key de Groq (obtener en console.groq.com)
 
 ```
 ---
