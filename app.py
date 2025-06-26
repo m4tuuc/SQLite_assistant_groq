@@ -89,6 +89,10 @@ INSTRUCCIONES ADICIONALES:
 - Verifica la existencia de columnas antes de usarlas
 - Usa nombres de tablas exactos (case-sensitive)
 - Para consultas complejas, dividelas en pasos
+- Usa indices donde haga sentido
+- Selecciona solo las columnas necesarias
+- Prefieres EXISTS sobre IN en subconsultas
+- 
 {custom_instructions}
 """
     
