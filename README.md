@@ -6,7 +6,7 @@ Puedes probarlo aqui ->  [![Hugging Face Space](https://img.shields.io/badge/Hug
 ---
 <h2>Strack usado</h2>
 
-| Componente | Tecnologia |
+| Componente | Tecnologias |
 | --- | --- |
 | LLM | Groq (deepseek-r1-distill-llama-70b) |
 | SQL Toolkit | LangChain SQL Agent |
