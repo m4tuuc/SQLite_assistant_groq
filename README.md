@@ -20,7 +20,7 @@ git clone https://github.com/m4tuuc/SQLite_assistant_groq.git
 cd sql-assistant-groq
 ```
 
-Instalar Dependencias
+Instalar dependencias
 ```python
 pip install -r requirements.txt
 ```
@@ -32,7 +32,7 @@ streamlit run app.py
 
 ---
 
-<h2>Configurar API Key de Groq necesaria para hacer funcionar nuestro modelo.</h2>
+<h2>Configurar API key de Groq necesaria para hacer funcionar nuestro modelo.</h2>
 Crea un archivo `.streamlit/secrets.toml` con el siguiente contenido:
 
 ```toml
