@@ -8,7 +8,6 @@ from langchain_groq import ChatGroq
 from sqlalchemy.pool import StaticPool
 import sqlite3
 import requests
-
 import os
 
 
