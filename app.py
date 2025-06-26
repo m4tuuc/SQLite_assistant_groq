@@ -179,7 +179,7 @@ with st.sidebar:
                 for table, count in table_counts.items():
                     st.write(f"- {table}: {count} registros")
 
-# Chat principal
+#Chat principal
 if st.session_state.db_loaded:
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
