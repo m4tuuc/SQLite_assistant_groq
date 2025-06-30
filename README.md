@@ -2,7 +2,7 @@
 ---
 El Asistente para base de datos es una aplicación de procesamiento de lenguaje natural (NLP) para bases de datos SQL que utiliza el modelo Groq para convertir consultas en lenguaje natural a consultas SQL. La solución implementa un agente SQL con capacidades de razonamiento multi-paso y ejecución de consultas en bases de datos SQLite.
 
-Puedes probarlo aqui ->  [![Hugging Face Space](https://img.shields.io/badge/Hugging%20Face-Space-blue?logo=huggingface)](https://huggingface.co/spaces/M4tuuc/SQLite_assistant_groq)  
+_version mas ligera_ ->  [![Hugging Face Space](https://img.shields.io/badge/Hugging%20Face-Space-blue?logo=huggingface)](https://huggingface.co/spaces/M4tuuc/SQLite_assistant_groq)  
 ---
 <h2>Strack usado</h2>
 
