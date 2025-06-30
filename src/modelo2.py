@@ -181,9 +181,8 @@ def create_sql_agent(db, use_lora=False, custom_instructions=""):
         timeout=30,  
         max_retries=3,  
         request_timeout=60
-    )
+    )   
     
-
     if use_lora:
         try:
             
@@ -200,8 +199,7 @@ def create_sql_agent(db, use_lora=False, custom_instructions=""):
         llm=llm,
         tools=tools,
         prompt=prompt
-    )
-    
+    ) 
     agent_executor = AgentExecutor(
         agent=agent,
         tools=tools,
@@ -210,8 +208,7 @@ def create_sql_agent(db, use_lora=False, custom_instructions=""):
         max_iterations=10,  
         max_execution_time=60,  
         return_intermediate_steps=True
-    )
-    
+    ) 
     return agent_executor, system_message
 
 def execute_query(agent_executor, query, max_retries=3):   
